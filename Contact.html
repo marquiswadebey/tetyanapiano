@@ -6,6 +6,78 @@
             href="./styles.css"
         />
     </head>
+         <style> 
+        body { 
+        margin: 0; 
+         font-family: Arial, sans-serif; 
+        }  
+
+          /* Left side with black background */ 
+          .left-side { 
+               background-color: black; 
+               width: 25%; 
+               height: 100vh; 
+               position: fixed; 
+               left: 0; 
+               top: 0;
+               color: white; /* Set text color to white */ 
+               padding: 80px;  
+                       } 
+
+           /* Right side with fixed image */ 
+            .right-side { 
+               width: 50%; 
+               margin-left: 50%; 
+               background-image:  <img src=Pictures\Pro-Photo 2.jpg /> 
+               background-size: cover; 
+               background-attachment: fixed; 
+               height: 50vh; 
+               padding-top: 80px;
+                        } 
+
+           /* Navigation bar at the top */ 
+           .navbar {
+               position: fixed; 
+               top: 0; 
+               width: 100%; 
+               background-color: #333; 
+               padding: 15px; 
+               z-index: 1; 
+               text-align: center; 
+                    } 
+
+           /* Navigation buttons */ 
+           .navbar a { 
+               display: inline-block; 
+               padding: 10px 20px; 
+               font-size: 16px; 
+               text-align: center; 
+               text-decoration: none; 
+               cursor: pointer; 
+               border: 2px solid #a5a9ac; /* Set the color of the outline */ 
+               border-radius: 20px; /* Set the border radius to make it round */ 
+               color: #060c10; /* Set the text color */ 
+               background-color: transparent; /* Set the background color to transparent */ 
+               transition: background-color 0.3s, color 0.3s; 
+               background-color: #05150e; /* Change the background color on hover */ 
+               color: #ffffff; /* Change the text color on hover */ 
+
+                    } 
+
+    
+
+           /* Style for the active button */ 
+           .navbar a.active { 
+               border-bottom: 2px solid white; 
+           } 
+       </style> 
+
+<H1>About Me</H1>
+<div class="navbar"> 
+    <a href=index.html class="active">Home</a> 
+    <a href="./aboutme.html">About Me</a> 
+    <a href="training.html"> Training</a>
+  </div>
 <H1>Contact Me</H1>
 <p> 
     <br> Phone Number: 719-406-1882 </br>
